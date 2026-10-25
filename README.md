@@ -17,16 +17,17 @@ Included Mods:
 * VertexMitchellNetravaliHeightmap: https://github.com/jamespglaze/VertexColorMapEmissive
 * VertexColorMapEmissive: https://github.com/jamespglaze/VertexColorMapEmissive
 
-Known Issues:
-* On Demand Textures are sometimes slightly fussy, if you have planets where normals are broken and/or missing textures, try reloading the game, this usually fixes the issue.
-* Science Balance may be slightly off for Limnus and its neighboring planets, and hasn't been considered for other planets, I wouldn't recommend MagDes Prealpha ready for a science/career experience
-
 Recommended Mods:
 * E.V.E. True Volumetric Clouds V5: https://www.patreon.com/blackrack/posts/true-volumetric-139879553
     * Only the paid version, version 5, is currently supported.
 	* you must install StockVolumetricClouds.
 * Distant Object Enhancement: https://github.com/net-lisias-ksp/DistantObject/releases
 	
+
+Known Issues:
+* On Demand Textures are sometimes slightly fussy, if you have planets where normals are broken and/or missing textures, try reloading the game, this usually fixes the issue.
+* Science Balance may be slightly off for Limnus and its neighboring planets, and hasn't been considered for other planets, I wouldn't recommend MagDes Prealpha ready for a science/career experience
+
 Magnificent Desolation is a modular planet pack taking place in a system orbiting around an intermediate-mass black hole. Other stars are only a few dozen to hundred astronomical units distant--much closer than interstellar distances, but a fair bit further than typical interplanetary distances, and with higher delta-v requirements to boot.
 
 Current mods are:

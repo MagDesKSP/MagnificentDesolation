@@ -9,12 +9,20 @@ Dependencies:
 	* ModularFlightIntegrator: https://ksp.sarbian.com/jenkins/job/ModularFlightIntegrator/40/artifact/ModularFlightIntegrator-1.2.10.0.zip
 	* KSPTextureLoader: https://github.com/Phantomical/KSPTextureLoader/releases
 * Kopernicus Expansions: https://github.com/VabienArt/KopernicusExpansion-Continueder/releases
+* Scatterer: https://github.com/LGhassen/Scatterer/releases
+    * You do *not* need to install StockScattererConfigs.
 
 Included Mods:
 * ScientificRevolution: https://github.com/StollD/SciRev
 * VertexMitchellNetravaliHeightmap: https://github.com/jamespglaze/VertexColorMapEmissive
 * VertexColorMapEmissive: https://github.com/jamespglaze/VertexColorMapEmissive
 
+Recommended Mods:
+* E.V.E. True Volumetric Clouds V5: https://www.patreon.com/blackrack/posts/true-volumetric-139879553
+    * Only the paid version, version 5, is currently supported.
+	* you must install StockVolumetricClouds.
+* Distant Object Enhancement: https://github.com/net-lisias-ksp/DistantObject/releases
+	
 Magnificent Desolation is a modular planet pack taking place in a system orbiting around an intermediate-mass black hole. Other stars are only a few dozen to hundred astronomical units distant--much closer than interstellar distances, but a fair bit further than typical interplanetary distances, and with higher delta-v requirements to boot.
 
 Current mods are:

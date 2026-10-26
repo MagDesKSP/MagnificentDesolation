@@ -20,7 +20,8 @@ Included Mods:
 Recommended Mods:
 * E.V.E. True Volumetric Clouds V5: https://www.patreon.com/blackrack/posts/true-volumetric-139879553
     * Only the paid version, version 5, is currently supported.
-	* you must install StockVolumetricClouds.
+	* you must install StockVolumetricClouds, which is included.
+	* You do *not* need to install StockScattererConfigs.
 * Distant Object Enhancement: https://github.com/net-lisias-ksp/DistantObject/releases
 	
 

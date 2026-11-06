@@ -28,6 +28,7 @@ A modular Kerbal Space Program planet mod in a desolate but beautiful multiple-s
     * Go to the in-game settings menu and disable the stock maneuver planner tool, which can cause various issues.
 * Transfer Window Planner: https://forum.kerbalspaceprogram.com/topic/84005-112x-transfer-window-planner-v1800-april-11/
     * Although we have seen some bugs in this system, where the planner computes transfer delta-v in the trillions of meters per second in some situations, so keep an eye out for that.
+* Better Time Warp: 
 
 Magnificent Desolation is a modular planet pack taking place in a system orbiting around an intermediate-mass black hole. Other stars are only a few dozen to hundred astronomical units distant--much closer than interstellar distances, but a fair bit further than typical interplanetary distances, and with higher delta-v requirements to boot.
 

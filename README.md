@@ -3,6 +3,8 @@
 A modular Kerbal Space Program planet mod in a desolate but beautiful multiple-star system.
 
 ## Dependencies: 
+* KSP Community Fixes: https://github.com/KSPModdingLibs/KSPCommunityFixes/releases
+    * You must go to the in-game settings menu and **disable the stock maneuver planner tool**, which can cause various issues.
 * Kopernicus: https://github.com/Kopernicus/Kopernicus/releases
     * HarmonyKSP: https://github.com/KSPModdingLibs/HarmonyKSP/releases
 	* ModuleManager: https://ksp.sarbian.com/jenkins/job/ModuleManager/163/artifact/ModuleManager.4.2.3.dll
@@ -12,8 +14,7 @@ A modular Kerbal Space Program planet mod in a desolate but beautiful multiple-s
 * Scatterer: https://github.com/LGhassen/Scatterer/releases
     * You do *not* need to install StockScattererConfigs.
 * MultiStarRings: https://github.com/jabaworks/MultiStarRings/releases
-* KSP Community Fixes: https://github.com/KSPModdingLibs/KSPCommunityFixes/releases
-    * Go to the in-game settings menu and **disable the stock maneuver planner tool**, which can cause various issues.
+
 
 ## Included Mods:
 * ScientificRevolution: https://github.com/StollD/SciRev

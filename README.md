@@ -20,6 +20,7 @@ A modular Kerbal Space Program planet mod in a desolate but beautiful multiple-s
 * ScientificRevolution: https://github.com/StollD/SciRev
 * VertexMitchellNetravaliHeightmap: https://github.com/jamespglaze/VertexColorMapEmissive
 * VertexColorMapEmissive: https://github.com/jamespglaze/VertexColorMapEmissive
+* VertexHeightOblateAdvanced : https://github.com/jamespglaze/VertexHeightOblateAdvanced
 
 ## Recommended Mods:
 * E.V.E. True Volumetric Clouds V5: https://www.patreon.com/blackrack/posts/true-volumetric-139879553

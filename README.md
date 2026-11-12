@@ -110,7 +110,7 @@ Here's the short version:
 ### Playtesters:
 * Beverly
 * Lima Baldwin
-* Vee
+* Vee (Alaygrounds)
 * Mythmars
 
 ## Tools:

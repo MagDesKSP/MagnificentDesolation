@@ -29,7 +29,7 @@ A modular Kerbal Space Program planet mod in a desolate but beautiful multiple-s
 	* DO NOT install StockScattererConfigs.
 * Distant Object Enhancement: https://github.com/net-lisias-ksp/DistantObject/releases
 * Transfer Window Planner: https://forum.kerbalspaceprogram.com/topic/84005-112x-transfer-window-planner-v1800-april-11/
-    * Although we have seen some bugs in this system, where the planner computes transfer delta-v in the trillions of meters per second in some situations, so keep an eye out for that.
+    * To avoid spurious relativistic delta-v bug, make sure the transfer time range in days is not "0", which it may default to in some cases, and which will cause TWP to try to find transfers that take arbitrarily short amount of time, using arbitrarily high delta-v.  
 * ParallaxContinued: https://github.com/Gameslinx/Parallax-Continued/releases
     * MagDes' ParallaxContinued support Requires you also install AdvancedPQSTools: https://github.com/CharonSSS/AdvancedPQSTools/releases
 	* Do not install the Stock system configuration and textures.

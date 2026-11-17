@@ -1,0 +1,179 @@
+EVE_CLOUDS
+{
+	OBJECT
+	{
+		name = MeirClouds_1
+		body = Meir
+		detailSpeed = 0,6,0
+		offset = 180,0,0
+		altitude = 16000
+		speed = 0,15,0
+		speedMode = LinearSurface
+		settings
+		{
+			_DetailScale = 30
+			_UVNoiseTex = StockVolumetricClouds/Clouds/Textures/PluginData/uvnoise1
+			_UVNoiseAnimation = 0, 0
+			_UVNoiseStrength = 0
+			_Color = 255,255,255,255
+			_speed = 0
+			_displacement = 0
+			_UVNoiseScale = 0
+			_flowSpeed = 0
+			_flowStrength = 0
+			_BumpScale = 0.2
+			_DetailDist = 2E-6
+			_MainTex
+			{
+				value = MagDes_Haun/VisualMods/EVE/PluginData/Meir_CloudType_Height.png
+				type = AlphaMap
+				alphaMask = ALPHAMAP_R
+			}
+			_DetailTex
+			{
+				value = StockVolumetricClouds/Clouds/Textures/PluginData/detail1
+			}
+			// _FlowMap
+			// {
+				// speed = 0.0003
+				// displacement = 0.35
+				// texture
+				// {
+					// value = 
+				// }
+			// }
+			// _BumpMap
+			// {
+				// value = 
+			// }
+		}
+		layerRaymarchedVolumeV5
+		{
+			color = 130,155,150, 255
+			upwardsCloudSpeed = 5
+			scaledFadeEndAltitude = 3300000
+			scaledFadeStartAltitude = 1000000
+			skylightTintMultiplier = 0.7
+			raymarchingSettings
+			{
+				lightMarchDistance = 5200
+				baseStepSize = 750
+				maxStepSize = 3000
+				adaptiveStepSizeFactor = 0.0025
+				lightMarchSteps = 8
+				continuousAccumulationDistance = 1000000
+			}
+			noise
+			{
+				erosionDepth = 0.3
+				worley
+				{
+					octaves = 6
+					persistence = 0.2
+				}
+			}
+			coverageMap
+			{
+				value = StockVolumetricClouds/Clouds/Textures/PluginData/Eve/EveCoverage
+				type = AlphaMap
+				alphaMask = ALPHAMAP_R
+			}
+			cloudTypeMap
+			{
+				value = MagDes_Haun/VisualMods/EVE/PluginData/Meir_CloudType_Height.png
+				type = AlphaMap
+				alphaMask = ALPHAMAP_R
+			}
+			cloudTypes
+			{
+				Item
+				{
+					typeName = Low
+					interpolateCloudHeights = true
+					baseNoiseTiling = 20000
+					maxAltitude = 7000
+					minAltitude = 6000
+					density = 0.0004
+					noiseEdgeHardness = 0.0
+					ambientVolume = 0.05
+					coverageCurve
+					{
+						key = 0.00321579 0.01443481 -0.03297058 -0.03297058
+						key = 0.02634327 0.9816654 0.111055 0.111055
+						key = 0.3164966 0.7820052 -1.475057 -1.475057
+						key = 0.9935608 0.01082993 -0.0226933 -0.0226933
+					}
+					densityCurve
+					{
+					}
+				}
+				Item
+				{
+					typeName = Medium
+					maxAltitude = 8000
+					minAltitude = 6500
+					density = 0.0002
+					baseNoiseTiling = 20000
+					noiseEdgeHardness = 0.0
+					lightningFrequency = 0.05
+					ambientVolume = 0.05
+					coverageCurve
+					{
+						key = 0.00321579 0.01443481 -0.03297058 -0.03297058
+						key = 0.02634327 0.9816654 0.111055 0.111055
+						key = 0.5562878 0.9816979 0 0
+						key = 0.9935608 0.01082993 -0.0226933 -0.0226933
+					}
+					densityCurve
+					{
+					}
+				}
+				Item
+				{
+					typeName = High
+					maxAltitude = 16000
+					minAltitude = 10000
+					baseNoiseTiling = 20000
+					density = 0.0005
+					noiseEdgeHardness = 0.5
+					ambientVolume = 0.5
+					coverageCurve
+					{
+						key = 0.00321579 0.01443481 -0.03297058 -0.03297058
+						key = 0.02634327 0.9816654 0.111055 0.111055
+						key = 0.5562878 0.9816979 0 0
+						key = 0.9935608 0.01082993 -0.0226933 -0.0226933
+					}
+					densityCurve
+					{
+					}
+				}
+			}
+			// flowMap
+			// {
+				// displacement = 80000
+				// speed = 0.008
+				// texture
+				// {
+					// value = 
+				// }
+			// }
+			lightVolumeSettings
+			{
+			}
+			phaseFunctions
+			{
+			}
+			ambientSound
+			{
+				soundName = StockVolumetricClouds/Clouds/Sounds/WindStormLooped
+			}
+		}
+		layer2D
+		{
+			macroCloudMaterial
+			{
+			}
+		}
+	}
+}

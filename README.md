@@ -11,6 +11,7 @@ A modular Kerbal Space Program planet mod in a desolate but beautiful multiple-s
 	* ModularFlightIntegrator: https://ksp.sarbian.com/jenkins/job/ModularFlightIntegrator/40/artifact/ModularFlightIntegrator-1.2.10.0.zip
 	* KSPTextureLoader: https://github.com/Phantomical/KSPTextureLoader/releases
 * Kopernicus Expansions: https://github.com/VabienArt/KopernicusExpansion-Continueder/releases
+    * Do NOT install KopernicusExpansionExamples
 * Scatterer: https://github.com/LGhassen/Scatterer/releases
     * DO NOT install StockScattererConfigs.
 * MultiStarRings: https://github.com/jabaworks/MultiStarRings/releases

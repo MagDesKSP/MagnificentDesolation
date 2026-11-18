@@ -14,7 +14,6 @@ A modular Kerbal Space Program planet mod in a desolate but beautiful multiple-s
     * Do NOT install KopernicusExpansionExamples
 * Scatterer: https://github.com/LGhassen/Scatterer/releases
     * DO NOT install StockScattererConfigs.
-* MultiStarRings: https://github.com/jabaworks/MultiStarRings/releases
 
 
 ## Included Mods:

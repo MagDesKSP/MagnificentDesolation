@@ -2,10 +2,14 @@
 
 A modular Kerbal Space Program planet mod in a desolate but beautiful multiple-star system.
 
+<img width="1196" height="539" alt="image" src="https://github.com/user-attachments/assets/637ff5d2-3e9f-4f76-a7c1-ac456a750fe4" />
+
+
 ## Dependencies: 
 * KSP Community Fixes: https://github.com/KSPModdingLibs/KSPCommunityFixes/releases
-    * You must go to the in-game settings menu and **disable the stock maneuver planner tool**, which can cause various issues.
+    * ***IMPORTANT*** You must go to the in-game settings menu and **disable the stock maneuver planner tool**, which can cause various issues.
 * Kopernicus: https://github.com/Kopernicus/Kopernicus/releases
+	* Must install Kopernicus release-256 or later.
     * HarmonyKSP: https://github.com/KSPModdingLibs/HarmonyKSP/releases
 	* ModuleManager: https://ksp.sarbian.com/jenkins/job/ModuleManager/163/artifact/ModuleManager.4.2.3.dll
 	* ModularFlightIntegrator: https://ksp.sarbian.com/jenkins/job/ModularFlightIntegrator/40/artifact/ModularFlightIntegrator-1.2.10.0.zip
@@ -82,15 +86,15 @@ Haun System:
 	* Phenix (Recycled moon)
 * Egress (a gas giant planet ideal for gravity assists.)
 
+<img width="947" height="921" alt="image" src="https://github.com/user-attachments/assets/f5be2914-a7e3-4344-92ce-dcf5edbce7c3" />
+
+
 ## Developer Commentary
 
 A new science experiment part has been added, the Developer Commentary Record. Based on the Voyager golden record, it is a nice decorative part for any craft, but its science definitions are fourth-wall-breaking commentary by the developers. The experiment produces no science points. The part *will* work on its own, but we recommend you install Resurfaced (https://forum.kerbalspaceprogram.com/topic/225920-resurfaced-backwards-compatible-pbr-stockalike-shaders-for-ksp-v12ksp-1125/) for better PBR rendering of the gold material.
 
 ## Known Issues:
 * On Demand Textures are sometimes slightly fussy, if you have planets where normals are broken and/or missing textures, try reloading the game, this usually fixes the issue.
-* Science Balance may be slightly off for Limnus and its neighboring planets, and hasn't been considered for other planets, I wouldn't recommend MagDes Prealpha ready for a science/career experience
-* As with all mods that reparent the homeworld, the KSC scene is completely messed up when you first load a save, and there may be some other visual bugs in the tracking station, or in the map when viewing Limnus while orbiting another object.
-* The multi-star rings have some weird semicircular shadows in localspace.
 
 ## Settings Options
 The settings can be found in GameData/MagDes_Core/SETTINGS.cfg. Of particular note is the homeworld swap option. At present, two options are available: Limnus (which is quite Kerbin-like, broadly speaking), and Ripley, the airless Mars-mass moon of Meir which is so close to its parent planet that it is stretched into a triaxial ellipsoid. In many ways it is 'easy' mode, although its high axial tilt and inclined orbit makes maneuvers a little more challenging to plot.
@@ -100,7 +104,7 @@ By default, we imagine that each homeworld option represents a mutually exclusiv
 
 Here's the short version:
 * Limnus: A second-generation space colony. People from a colony in another star system colonized this world after their generation ship crashed into Limnus. Limnus is an only marginally habitable world with a scarred past and a fraught future. Much lore exists, but is best saved for the in-game science definition text.
-* Ripley: You play as a person-like AI called IMPI. Her directive is to learn as much as possible about the Auox system, in hopes of one day returning that information to the homeworlds of her two 'parent' AIs. You start with probes; crewed parts are a mid-game development, and your astronauts are like a more benevolent version of Borg drones.
+* Ripley: You play as a person-like AI called PIFIA. Her directive is to learn as much as possible about the Auox system, in hopes of one day returning that information to the homeworlds of her two 'parent' AIs. You start with probes; crewed parts are a mid-game development, and your astronauts are like a more benevolent version of Borg drones.
 
 ## Credits
 ### Developers:

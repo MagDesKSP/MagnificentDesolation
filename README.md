@@ -4,10 +4,9 @@ A modular Kerbal Space Program planet mod in a desolate but beautiful multiple-s
 
 <img width="1196" height="539" alt="image" src="https://github.com/user-attachments/assets/637ff5d2-3e9f-4f76-a7c1-ac456a750fe4" />
 
-
 ## Dependencies: 
 * KSP Community Fixes: https://github.com/KSPModdingLibs/KSPCommunityFixes/releases
-    * ***IMPORTANT*** You must go to the in-game settings menu and **disable the stock maneuver planner tool**, which can cause various issues.
+    * ***IMPORTANT:*** You must go to the in-game settings menu and **disable the stock maneuver planner tool**, which can cause various issues.
 * Kopernicus: https://github.com/Kopernicus/Kopernicus/releases
 	* Must install Kopernicus release-256 or later.
     * HarmonyKSP: https://github.com/KSPModdingLibs/HarmonyKSP/releases
